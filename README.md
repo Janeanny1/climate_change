@@ -46,7 +46,7 @@ This app helps visualize climate patterns and trends to promote awareness of glo
 - Be sure to add your API key in weather/views.py or load it securely using environment variables.
 ---
 ## 🖇 GitHub Repository Link
-- GitHub Repository - climate_change
+- GitHub Repository - https://github.com/Janeanny1/climate_change.git
 ---
 ## 📌 License
 - MIT License. See LICENSE file for details.
