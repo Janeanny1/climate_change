@@ -24,17 +24,17 @@ This app helps visualize climate patterns and trends to promote awareness of glo
 - git clone https://github.com/Janeanny1/climate_change.git
 - cd climate-change-weather-app
 ---
-## Create and activate virtual environment
+## 💻 Create and activate virtual environment
 - python -m venv .venv
 - .\.venv\Scripts\activate  # On Windows
 ---
-## Install dependencies
-pip install -r requirements.txt
+## 📦 Install dependencies
+- pip install -r requirements.txt
 ---
-## Apply migrations
-python manage.py migrate
+## 🧮 Apply migrations
+- python manage.py migrate
 ---
-## Run the server
+## 🚀 Run the server
 - python manage.py runserver
 - Then visit: http://127.0.0.1:8000/
 ---
@@ -45,11 +45,11 @@ python manage.py migrate
 - This project uses the OpenWeatherMap API.
 - Be sure to add your API key in weather/views.py or load it securely using environment variables.
 ---
-## GitHub Repository Link
-GitHub Repository - climate_change
+## 🖇 GitHub Repository Link
+- GitHub Repository - climate_change
 ---
 ## 📌 License
-MIT License. See LICENSE file for details.
+- MIT License. See LICENSE file for details.
 ---
 ## 👤 Author
 - Janet Anne Malikita
