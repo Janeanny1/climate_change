@@ -10,12 +10,12 @@ def index(request):
         if city:
             try:
                 source = urllib.request.urlopen(
-                    f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=830fa36612df55b135fa8b63ba140d5b&units=metric'
+                    f'https://api.openweathermap.org/data/2.5/weather?q={city}&appid=key&units=metric'
                 ).read()
                 current_data = json.loads(source)
 
                 forecast_source = urllib.request.urlopen(
-                    f'https://api.openweathermap.org/data/2.5/forecast?q={city}&appid=830fa36612df55b135fa8b63ba140d5b&units=metric'
+                    f'https://api.openweathermap.org/data/2.5/forecast?q={city}&appid=key=metric'
                 ).read()
                 forecast_data = json.loads(forecast_source)
 
